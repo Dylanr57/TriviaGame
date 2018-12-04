@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia Game</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div id=container>
+
+        <div id=title>
+            <h1>Trivia Game</h1>
+        </div>
+
+        <div id=content>
+            <div id=startScreen>
+                <div id=start>
+                    <p>Start</p>
+                </div>
+            </div>
+
+            <div id=triviaScreen>
+                <div id=timer>
+                    <p>Time Remaining: <span id=timeText>30</span> seconds</p>
+                </div>
+                <div id=question>
+                    <span id=questionText>question goes here</span>
+                </div>
+                <div id=answers>
+                    <div id=answer0>
+                        <span id=answerText0>answer one</span>
+                    </div>
+                    <div id=answer1>
+                        <span id=answerText1>answer two</span>
+                    </div>
+                    <div id=answer2>
+                        <span id=answerText2>answer three</span>
+                    </div>
+                    <div id=answer3>
+                        <span id=answerText3>answer four</span>
+                    </div>
+                </div>
+            </div>
+
+            <div id=answerScreen>
+                <div id=response>
+                    <span id=responseText>Correct!</span>
+                </div>
+                <div id=correctAnswer>
+                    <p>The Correct Answer was: <span id=correctAnswerText>correct answer</span></p>
+                </div> 
+                <div id=picture></div>           
+            </div>
+
+            <div id=endScreen>
+                <p>All Done!</p>
+                <div>
+                    Correct Answers: <span id=correctCountText></span>
+                </div>
+                <div>
+                    Incorrect Answers: <span id=incorrectCountText></span>
+                </div>
+                <div>
+                    Unanswered: <span id=unansweredCountText></span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="assets/javascript/app2.js"></script>
+
+</body>
+</html>

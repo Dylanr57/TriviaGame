@@ -23,43 +23,49 @@
 
         <div id=content>
             <div id=startScreen>
-                <div id=start>
-                    <p>Start</p>
+                <div class=start>
+                    <p id=start>Start</p>
                 </div>
             </div>
 
             <div id=triviaScreen>
                 <div id=timer>
-                    <p>Time Remaining: <span id=timeText>30</span> seconds</p>
+                    <p>Time Remaining: <span id=timeText>20</span> seconds</p>
                 </div>
-                <div id=question>
-                    <span id=questionText>question goes here</span>
+                <div class=question>
+                    <span id=question0>What year did DisneyLand open?</span>
                 </div>
-                <div id=answers>
-                    <div id=answer0>
-                        <span id=answerText0>answer one</span>
-                    </div>
-                    <div id=answer1>
-                        <span id=answerText1>answer two</span>
-                    </div>
-                    <div id=answer2>
-                        <span id=answerText2>answer three</span>
-                    </div>
-                    <div id=answer3>
-                        <span id=answerText3>answer four</span>
-                    </div>
+                <div class=answers0>
+                    <button class="correct answer answers0">1955</button>
+                    <button class="incorrect answer answers0" >1962</button>
+                    <button class="incorrect answer answers0">1946</button>
+                    <button class="incorrect answer answers0" >1971</button>
                 </div>
+                <div class=question>
+                    <span id=question1>What was the first full length CGI movie?</span>
+                </div>
+                <div class=answers1>
+                    <button class="correct answer answers1" >Toy Story</button>
+                    <button class="incorrect answer answers1" >The Lion King</button>
+                    <button class="incorrect answer answers1" >Monsters Inc</button>
+                    <button class="incorrect answer answers1" >A bug's Life</button>
+                </div>
+                <div class=question>
+                    <span id=question2>What year did Mickey Mouse first appear?</span>
+                </div>
+                <div class=answers2>
+                    <button class="correct answer answers2" >1928</button>
+                    <button class="incorrect answer answers2" >1919</button>
+                    <button class="incorrect answer answers2" >1934</button>
+                    <button class="incorrect answer answers2" >1920</button>
+                </div>
+                </br>
+                <div>
+                    <button id=done>Done</button>
+                </div>
+
             </div>
 
-            <div id=answerScreen>
-                <div id=response>
-                    <span id=responseText>Correct!</span>
-                </div>
-                <div id=correctAnswer>
-                    <p>The Correct Answer was: <span id=correctAnswerText>correct answer</span></p>
-                </div> 
-                <div id=picture></div>           
-            </div>
 
             <div id=endScreen>
                 <p>All Done!</p>
@@ -79,7 +85,7 @@
     </div>
 
 
-    <script src="assets/javascript/app2.js"></script>
+    <script src="assets/javascript/app.js"></script>
 
 </body>
 </html>

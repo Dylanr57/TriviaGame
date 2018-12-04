@@ -1,0 +1,36 @@
+body {
+    background-color: beige;
+    text-align: center;
+}
+
+#container {
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: paleturquoise;
+    border-radius: 15px;
+}
+
+#content {
+    
+}
+
+#title {
+    color: midnightblue;
+    border-bottom: 5px solid midnightblue;
+}
+
+#start {
+    font-size: larger;
+    background-color: lightcoral;
+    margin: 80px 200px;
+    padding: 20px;
+    border: 5px deepskyblue solid;
+    border-radius: 15px;
+    
+}
+
+#endScreen {
+    margin: 60px;
+    font-size: large;
+}
